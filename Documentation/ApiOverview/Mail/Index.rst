@@ -90,7 +90,7 @@ smtp
 :php:`$GLOBALS['TYPO3_CONF_VARS']['MAIL']['transport_smtp_server'] = '<server:port>';`
    Mail server name and port to connect to. Port defaults to "25".
 
-:php:`$GLOBALS['TYPO3_CONF_VARS']['MAIL']['transport_smtp_encrypt'] = '<bool>';`
+:php:`$GLOBALS['TYPO3_CONF_VARS']['MAIL']['transport_smtp_encrypt'] = false;`
    Determines whether the transport protocol should be encrypted. Requires openssl library.
    If :php:`false`, symfony/mailer will use STARTTLS.
 
